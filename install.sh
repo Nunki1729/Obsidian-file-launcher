@@ -32,7 +32,7 @@ DESKTOP_FILE="$USER_HOME/.local/share/applications/obsidian.desktop"
 
 # Reemplazar rutas
 sed -i "s|__HOME__|$USER_HOME|g" "$DESKTOP_FILE"
-sed -i "s|__HOME__|$USER_HOME|g" "$USER_HOME/.obsidian_app/obsidian.sh"
+sed -i "s|__HOME__|$USER_HOME|g" "$USER_HOME/.obsidian_app/obsidian_launcher.sh"
 
 # Actualizar base de datos
 update-desktop-database "$USER_HOME/.local/share/applications" 2>/dev/null || true
