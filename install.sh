@@ -23,7 +23,7 @@ rsync -a \
 
 # Dar permisos al launcher y al .AppImage
 chmod +x "$USER_HOME/.obsidian_app/obsidian_launcher.sh"
-chmod +x "$USER_HOME/.obsidian_app/obsidian.AppImage"
+chmod +x "$USER_HOME/.obsidian_app/Obsidian.AppImage"
 
 # Copiar .desktop
 cp "$SCRIPT_DIR/obsidian.desktop" "$USER_HOME/.local/share/applications/"
