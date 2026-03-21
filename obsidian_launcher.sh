@@ -2,7 +2,7 @@
 
 # Si se hace click en el icono se abre directamente
 if [[ -z "$1" ]]; then
-    /home/nunki/Aplicaciones/Obsidian/Obsidian-1.12.4.AppImage & disown
+    /home/nunki/Aplicaciones/Obsidian/Obsidian.AppImage & disown
     exit
 fi
 
@@ -27,7 +27,7 @@ for V in "${paths[@]}"; do
 done
 
 if [[ -z "$BEST_VAULT" ]]; then
-    /home/nunki/Aplicaciones/Obsidian/Obsidian-1.12.4.AppImage & disown
+    /home/nunki/Aplicaciones/Obsidian/Obsidian.AppImage & disown
     exit 1
 fi
 
