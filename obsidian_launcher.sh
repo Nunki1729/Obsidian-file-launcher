@@ -36,4 +36,4 @@ VAULT_NAME=$(basename "$BEST_VAULT")
 # Calcular ruta relativa
 REL_PATH="${FILE#$BEST_VAULT/}"
 
-/home/nunki/Aplicaciones/Obsidian/Obsidian-1.12.4.AppImage "obsidian://open?vault=$VAULT_NAME&file=$REL_PATH"
+__HOME__/.obsidian_app/Obsidian.AppImage "obsidian://open?vault=$VAULT_NAME&file=$REL_PATH"
