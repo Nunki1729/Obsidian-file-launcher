@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=Obsidian
-Exec=bash  /home/nunki/Aplicaciones/Obsidian/obsidian_launcher.sh %f
-TryExec=/home/nunki/Aplicaciones/Obsidian/obsidian_launcher.sh
+Exec=bash  __HOME__/.obsidian_app/obsidian_launcher.sh %f
+TryExec=/bin/bash
 Terminal=false
 Type=Application
-Icon=/home/nunki/Aplicaciones/Obsidian/obsidian_icono.png
+Icon=__HOME__/.obsidian_app/obsidian_icon.png
 StartupWMClass=obsidian
 Comment=Obsidian - VAult-based Markdown Wditor
 Categories=Office;Utility;
