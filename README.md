@@ -70,3 +70,19 @@ chmod +x install.sh
 ## Acknowledgements
 
 Thanks to the Obsidian team for their support and for building such a great tool.
+
+---
+
+# <Project Name>
+
+Short description of what your project does.
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0** (GPL-3.0).  
+See the [LICENSE](./LICENSE) file for details.
+
+## Author
+
+© 2026 Javier Santiago (Nunki1729)  
+Contact: cocosunusu@gmail.com or GitHub: [Nunki1729](https://github.com/Nunki1729)
